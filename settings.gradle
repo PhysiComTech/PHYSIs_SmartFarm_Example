@@ -1,0 +1,3 @@
+include ':physislibrary'
+include ':app'
+rootProject.name = "PHYSIs_SmartFarm_Example"
