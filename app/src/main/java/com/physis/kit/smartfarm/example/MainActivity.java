@@ -16,10 +16,10 @@ import com.physicomtech.kit.physislibrary.PHYSIsMQTTActivity;
 
 public class MainActivity extends PHYSIsMQTTActivity {
 
-    private final String SERIAL_NUMBER = "20C38F8A020C";        // PHYSIs Maker Kit 시리얼번호
+    private final String SERIAL_NUMBER = "XXXXXXXXXXXX";        // PHYSIs Maker Kit 시리얼번호
 
-    private static final String SUB_SENSING_TOPIC = "Sensing";
-    private static final String PUC_CONTROL_TOPIC = "Control";
+    private static final String SUB_SENSING_TOPIC = "Sensing";      // 센싱 데이터 수신 Topic
+    private static final String PUC_CONTROL_TOPIC = "Control";      // 제어 데이터 전송 Topic
 
     Button btnConnect, btnDisconnect, btnStart, btnStop;        // 액티비티 위젯
     Button btnPumpOn, btnPumpOff, btnLedOn, btnLedOff, btnFanSetup;
